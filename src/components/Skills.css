@@ -1,0 +1,28 @@
+/* Skills.css */
+.skills-section {
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .skill {
+    margin: 15px 0;
+  }
+  
+  .skill-bar {
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px 0;
+  }
+  
+  .skill-level {
+    height: 8px;
+    border-radius: 10px;
+    transition: width 1.2s ease;
+  }
+  
+  .skill-level.java { width: 80%; background: var(--primary-color); }
+  .skill-level.sql { width: 70%; background: var(--secondary-color); }
+  .skill-level.c {width: 67%; background: #3b94a3;}
+  .skill-level.py{width: 60%; background: #36a98e;}
+  .skill-level.rjs{width: 70%; background: var(--secondary-color);}
